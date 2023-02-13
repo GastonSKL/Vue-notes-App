@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.counter{
+    width: 20em;
+    height: 10em; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counter__input{
+    display: flex;
+    width: 10em;
+    justify-content: space-evenly;
+}
+
+.counter__btn{
+    width: 2em;
+    border-radius: .4em;
+    border: none;
+}
+
+.counter__btn:hover{
+    cursor: pointer;
+}
